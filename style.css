@@ -47,7 +47,10 @@ html {
 }
 #menu-icon {
   display: none;
-  color: var(--main-color);
+  
+  color: black;
+  font-size: 3rem;
+
 }
 .logo {
   font-size: 3rem;
