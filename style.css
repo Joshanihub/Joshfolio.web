@@ -320,6 +320,8 @@ section {
   align-content: center;
   gap: 3rem;
   row-gap: 5rem;
+  
+  padding: 2rem;
 }
 
 .project-card {
@@ -370,6 +372,7 @@ section {
   margin: 5rem 0;
   text-align: center;
 }
+
 .contact form .input-group input,
 .contact form textarea {
   width: 100%;
