@@ -53,13 +53,13 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
 
 (function(){
-  emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS User ID
+  emailjs.init("service_q8l0x49"); // Replace with your EmailJS User ID
 })();
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
   event.preventDefault(); // Prevent the default form submission
 
-  emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this) // Replace with your EmailJS service and template IDs
+  emailjs.sendForm('service_q8l0x49', 'template_b23p8cz', this) // Replace with your EmailJS service and template IDs
       .then(function() {
           alert('Message sent successfully!');
           document.getElementById('contact-form').reset(); // Reset the form
