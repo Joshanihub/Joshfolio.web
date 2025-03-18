@@ -76,7 +76,7 @@ span {
   border-bottom: 3px soild transparent;
 }
 .navbar a:hover {
-  color: var(--main-color);
+  color: whitesmoke;
   border-bottom: 3px solid var(--main-color);
 }
 .gradient-button {
@@ -144,6 +144,7 @@ section {
   box-shadow: 0 0 25px rgb(255, 255, 255), 0 0 50px rgb(255, 255, 255),
     0 0 100px rgb(255, 255, 255);
 }
+
 .social-icons a {
   display: inline-flex;
   justify-content: center;
@@ -417,4 +418,22 @@ section {
   text-align: center;
   margin-top: 40px;
   font-size: 16px;
+}
+#play-music{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  background: linear-gradient(-270deg, #b7b7b7 10%, #f5f7f8 100%);
+  letter-spacing: 1px;
+  text-wrap: nowrap;
+  border: none;
+  color: var(--text-color);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  
 }

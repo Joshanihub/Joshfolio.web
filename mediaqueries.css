@@ -60,7 +60,7 @@
     position: absolute;
     top: 100%;
     right: 0;
-    width: 25rem;
+    width: 15rem;
     padding: 1rem 3rem;
     background: rgba(0, 0, 0, 0.8);
     border-bottom-left-radius: 2rem;
@@ -72,7 +72,7 @@
     display: block;
     font-size: 2rem;
     margin: 3rem 0;
-    color: var(--text-color);
+    color: whitesmoke;
   }
   .navbar.active {
     display: block;

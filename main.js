@@ -67,3 +67,18 @@ document.getElementById('contact-form').addEventListener('submit', function(even
           alert('Error: ' + JSON.stringify(error));
       });
 });
+
+
+
+document.getElementById('play-music').addEventListener('click', function() {
+  var music = document.getElementById('background-music');
+  var button = document.getElementById('play-music');
+
+  if (music.paused) {
+    music.play();
+    button.textContent = "Pause Music";
+  } else {
+    music.pause();
+    button.textContent = "Play Music";
+  }
+});
